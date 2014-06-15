@@ -304,12 +304,17 @@ return array (
       'packagePath' => 'typo3conf/ext/phpunit/',
       'classesPath' => 'Classes/',
     ),
-	  'news' =>
-	  array (
-		  'state' => 'active',
-		  'packagePath' => 'typo3conf/ext/news/',
-		  'classesPath' => 'Classes/',
-	  ),
+    'coreapi' => 
+    array (
+      'state' => 'active',
+      'packagePath' => 'typo3conf/ext/coreapi/',
+      'classesPath' => 'Classes/',
+      'suggestions' => 
+      array (
+      ),
+      'manifestPath' => '',
+      'composerName' => 'etobi/coreapi',
+    ),
     'recordlist' =>
     array (
       'manifestPath' => '',
